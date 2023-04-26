@@ -18,7 +18,7 @@ button{
     width: 15%;
     padding: 15px;
     margin: 10px auto;
-    //background-color:#1abc9c;
+    background-color:#1abc9c;
 }
 
 h1{
