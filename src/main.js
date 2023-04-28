@@ -9,9 +9,6 @@ import './assets/main.css'
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
 import './styles/main.css'
 
-configureCompat({
-    MODE: 3
-})
 
 createApp(App)
 .use(BootstrapVue)

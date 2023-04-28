@@ -1,5 +1,4 @@
 <script>
-
 </script>
 <template>
     <footer class="bg-black-2">
@@ -21,24 +20,8 @@
       <p class="time small-text-regular text-light">Mon - Sat(8.00 - 6.00)</p>
       <p class="day small-text-regular text-light">Sunday - Closed</p>
     </div>
-    <div class="use text-light">
-      <h1 class="links large-text-bold">Useful Links</h1>
-      <p class="link-1 normal-text-regular">About</p>
-      <p class="link-2 normal-text-regular">News</p>
-      <p class="link-3 normal-text-regular">Partners</p>
-      <p class="link-4 normal-text-regular">Team</p>
-      <p class="link-5 normal-text-regular">Menu</p>
-      <p class="link-6 normal-text-regular">Contact</p>
-    </div>
-    <div class="help-center text-light">
-      <h1 class="help large-text-bold">Help?</h1>
-      <p class="help-1 normal-text-regular">FAQ</p>
-      <p class="help-2 normal-text-regular">Term & Condition</p>
-      <p class="help-3 normal-text-regular">Reporting</p>
-      <p class="help-4 normal-text-regular">Documentation</p>
-      <p class="help-5 normal-text-regular">Support Policy</p>
-      <p class="help-6 normal-text-regular">Privacy</p>
-    </div>
+    <img class="links" src="../assets/images/Useful links.png">
+    <img class="help" src="../assets/images/help.png">
     <img class="recent" src="../assets/images/Recent post.png">
   </footer>
 </template>
@@ -101,11 +84,11 @@ transform: translateY(950px);
   padding-left: 25%;
   padding-top:25% ;
 }
-.use{
+.links{
   padding-left: 38%;
   transform: translateY(-295px);
 }
-.help-center{
+.help{
   padding-left: 50%;
   transform: translateY(-570px);
 }
